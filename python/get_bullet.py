@@ -19,7 +19,7 @@ def bullet(tv_id):
             xml = zlib.decompress(res_byte).decode('utf-8')
 
             # 保存路径
-            path = '../Data/' + tv_id + '_300_' + str(page) + '.xml'
+            path = '../data/' + tv_id + '_300_' + str(page) + '.xml'
             with open(path, 'w', encoding='utf-8') as f:
                 f.write(xml)
         finally:
