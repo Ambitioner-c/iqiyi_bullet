@@ -202,5 +202,16 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# 文本文件
 data/*
 *.xml
+
+# 图片文件
+image/*
+*.jpg
+*.png
+*.jpeg
+
+# 字体文件
+font/*
+*.ttc
